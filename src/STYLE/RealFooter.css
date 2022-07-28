@@ -1,0 +1,21 @@
+.footer-bottom{
+    display: flex;
+    font-size: 1.5rem ;
+    margin-bottom: 3rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottom-middle{
+    list-style: none;
+    display: flex;
+    gap: .5rem;
+}
+.bottom-link{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+.bottom-link:hover{
+    border-bottom: 2px solid black;
+    transition: all 0.3s ease-in-out;
+}

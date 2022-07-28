@@ -1,0 +1,41 @@
+
+.app__projects-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.app__projects-project{
+    height: 10rem;
+    width: 10rem;
+}
+.app__projects-project-pic-wrapper{
+    width: 100%;
+    height: 100%;
+}
+.app__projects-project-pic{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.app__projects-cards-grid{
+ 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 70%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+.app__projects-project{
+    border-radius: 1rem;
+    border: none;
+}
+.app__projects-project:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.211);
+}

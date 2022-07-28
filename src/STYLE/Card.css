@@ -1,0 +1,87 @@
+.section3-container{
+    display: flex;
+    height: 45rem;
+    flex-direction: column;
+}
+.title-box{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+.interest{
+    transform: translateX(20rem);
+}
+.title-text{
+    width: 42%;
+}
+
+.content-container{
+    display: flex;
+    padding: 2rem;
+    height: 50rem;
+    position: relative;
+}
+.content-text{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 15%;
+    
+}
+.content-title{
+    font-size: 7rem;
+    text-decoration: underline;
+    
+   
+}
+.content-description{
+    padding: 4rem;
+    font-size: 2rem;
+    width: 60%;
+    text-transform: uppercase;
+
+    margin-right: 2rem;
+}
+.content-picture{
+    display: flex;
+    justify-content: center;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+.picture-wrap{
+    width: 35rem;
+    height: 38rem;
+    display: block;
+    overflow: hidden;
+    perspective: 10px;
+}
+.content-pic{
+    object-fit: cover;
+    width: 100%;
+    transform: translateZ(-10px) scale(2);
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    border-radius: .25rem;
+    transition: transform .3s ease-in;
+}
+.content-pic:hover{
+    transform: scale(1.1);
+    transition: transform .3s ease-in;
+}
+.content-description-link{
+    color: black;
+    text-decoration: none;
+    transition: .3s ease-in-out; 
+    padding-bottom: 1rem;   
+
+}
+.content-description-link:hover{
+    
+    text-decoration: underline;
+    transition: all .3s ease-in-out;
+}
+

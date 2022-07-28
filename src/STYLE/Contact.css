@@ -1,0 +1,39 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+
+    
+}
+.contact-top{
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-between;
+}
+.contact-top> :first-child{
+    margin-left: 5.25rem;
+}
+
+.contact-top> :last-child{
+    margin-right: 5rem;
+}
+.contact-middle-container{
+    display: flex;
+    justify-content: center;
+}
+.contact-middle{
+    display: flex;
+    margin-top: 4rem;
+    width: 60%;
+}
+.contact-middle-link{
+    text-align: center;
+    color: black;
+    font-size: 8rem;
+    text-transform: uppercase;
+    line-break: anywhere;
+    word-wrap: break-word;
+}
+.wanttohire{
+    transform: translateX(7rem);
+}

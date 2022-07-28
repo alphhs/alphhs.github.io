@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color: #eaeaea;
+}
+.container3{
+    margin-top: 2rem;
+    display: flex;
+    height: 60rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10rem;
+    margin-bottom: 10rem;
+}
+.title-section2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15rem;
+    width: 85vw;
+}
+.title-number{
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    position: sticky;
+    top: 40%;
+}
+.title1{
+    font-size: 7rem;
+    transition: .2s ease-in-out; 
+}
+.title2 ,.title3{
+    font-size: 7rem;
+}
+.title1, .title2, .title3{
+    text-decoration: underline;
+}
+.third-section{
+    position: sticky;
+    top: 40%;
+}
+.title-text{
+    font-size: 2rem;
+    padding-top: 1.5rem;  
+}
+.title-text :first-child{
+    color: black;
+}
+.middle-section{
+    width: 50%;
+    height: 80%;
+}
+.pic-wrapper{
+    margin-top: 1.5rem;
+    width: 90%;
+    overflow: hidden;
+}
+.pic{
+    object-fit: cover;
+    height: 80%;
+    max-width: 100%;
+    transition: .3s ease-in-out;
+
+}
+.pic:hover{
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+    filter: blur(1px);
+}
+.bottom-text{
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    padding: 0;
+    gap: 2rem;
+}
+.description-text{
+
+    width: 60%;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 5rem;
+}
+.about-me{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.254);
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 500;   
+    transition: .3s ease-in-out; 
+    
+}
+.about-me:hover{
+    border-bottom: 2px solid rgba(0, 0, 0, 1);
+    transition: .3s ease-in-out;
+}
+.about-me :only-child{
+    text-decoration: none;
+    color: black;
+}

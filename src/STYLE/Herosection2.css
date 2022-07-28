@@ -1,0 +1,60 @@
+.container2{
+    display: flex;
+    overflow: visible;
+    height: 60rem;
+    padding-bottom: 10rem;
+    align-items: center;
+}
+.hero2-container{
+    margin-top: -5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60rem;
+    margin-bottom: 5rem;
+}
+.hero2-top{
+    display: flex;
+    flex-direction: column;
+}
+.top-left-text{
+    font-size: 2rem;
+    padding-left: 5.5rem;
+    padding-top: .5rem;
+    overflow: visible;
+
+
+}
+.top-right-text{
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    overflow: visible;
+    background-color: transparent;
+
+}
+.hero2-bottom{
+    gap: 3rem;
+    width: 70%;
+    margin-top: 3rem;   
+    flex-direction: column;
+    display: flex;
+    justify-content: end;
+    overflow: visible;
+    position: sticky;
+    align-items: flex-start;
+    top: 15%;
+
+}
+.bottom-right-text{
+    
+    font-size: 2.5rem;
+    width: 100%;
+    text-transform: uppercase;
+    overflow: visible;
+    background-color: transparent;
+
+}

@@ -1,0 +1,39 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-top: 15rem;
+    
+}
+.footer-top{
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-between;
+}
+.footer-top> :first-child{
+    margin-left: 5.25rem;
+}
+
+.footer-top> :last-child{
+    margin-right: 5rem;
+}
+.middle-container{
+    display: flex;
+    justify-content: center;
+}
+.footer-middle{
+    display: flex;
+    margin-top: 4rem;
+    width: 60%;
+}
+.middle-link{
+    text-align: center;
+    color: black;
+    font-size: 8rem;
+    text-transform: uppercase;
+    line-break: anywhere;
+    word-wrap: break-word;
+}
+.wanttohire{
+    transform: translateX(7rem);
+}
